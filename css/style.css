@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    width: 15px;
+    background: #333333;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: rgba(255, 255, 255, .3);
+    border-radius:10px;
+    border-right:2px solid #333333
+}
+
+figure{
+    margin-bottom: 0;
+}
+
+h1{
+    font-weight: 900;
+    letter-spacing: -3px;
+    font-size: 70px;
+}
+
+h1 span{
+    font-weight: 400;
+}
+
+h2{
+    font-weight: 100;
+    font-size: 64px;
+    letter-spacing: -2px;
+    text-transform: lowercase;
+    margin-bottom: 15px;
+    text-align: center;
+}
+h3{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+article{
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+}
+
+#main-header{
+    background-color: #333333;
+    color:#ffffff;
+    padding: 5px 0;
+}
+
+#news{
+    background-color: #eeeeee;
+}
+
+#events{
+    background-color: #dddddd;
+}
+
+#courses{
+    background-color: #eeeeee;
+}
+
+#contact_us{
+    background-color: #eeeeee;
+}
+
+#lista-cursos .row {
+    margin-bottom:20px;
+}
+
+#company{
+    background-color: #333333;
+    color: #eeeeee;
+}
+
+.padded{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+
+.agregar-carrito {
+    margin:10px 0;
+}
+
+.card {
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    background: white;
+}
+
+
+.card {
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    background: white;
+}
+@media (min-width: 550px) {
+    .card {
+        text-align: left;
+    }
+}
+.info-card  {
+    padding: 10px 20px;
+}
+
+.info-card p, 
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-card .precio {
+    font-weight: 700;
+    font-size: 25px;
+}
+.info-card .precio span {
+    text-decoration-line: line-through;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.modal-body{
+    text-align: justify;
+}
